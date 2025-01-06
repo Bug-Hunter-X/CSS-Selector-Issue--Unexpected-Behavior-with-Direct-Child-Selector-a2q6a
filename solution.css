@@ -1,0 +1,11 @@
+The issue can be solved using one of the following strategies:
+
+1. **Using a more general selector**: If the goal is to style all `<p>` elements within `#myElement`, regardless of their nesting level, use a descendant selector:
+
+```css
+#myElement p {
+  /* styles */
+}
+```
+
+2. **Using a different approach**: If the goal is to only style `<p>` elements directly within `#myElement`, but with added specificity, consider using classes or other more precise selectors and ensuring proper HTML structure to avoid the problem shown in `bug.css`.
